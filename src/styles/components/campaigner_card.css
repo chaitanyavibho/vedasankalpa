@@ -1,0 +1,119 @@
+.campaigner_card_main{
+    margin-top: 50px;
+}
+.campaigner_box{
+    border-radius: 20px;
+    background: #FFF3EF;
+    padding: 20px 10px;
+    cursor: pointer;
+    height: 100%;
+}
+.campaigner_box:hover{
+    box-shadow: 23.731px 28.477px 40.343px 0px rgba(0, 0, 0, 0.05);
+}
+.campaigner_box h3{
+    color: #13151E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    min-height: 40px;
+}
+.campaigner_box p{
+    color: rgba(19, 21, 30, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    min-height: 100px;
+}
+.donate_btn a .btn{
+    color: #FFF;
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 80px;
+    opacity: 0.3;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    mix-blend-mode: luminosity;
+    text-transform: unset;
+    padding: 10px 30px;
+}
+.donate_btn a .btn img{
+    margin-left: 10px;
+}
+.campaigner_card_content{
+    display: flex;
+}
+.campaigner_card_content .campaigner_box:not(:first-child){
+    margin-left: 20px;
+}
+.campaigner_box:hover .donate_btn .MuiButtonBase-root.btn{
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%) !important;
+    opacity: unset;
+    mix-blend-mode: unset;
+}
+@media (min-width:320px) and (max-width:767px) {
+.campaigner_card_main{
+    margin-top: 30px !important;
+}
+.campaigner_card_content{
+    display: flex;
+    flex-direction: column;
+}
+.campaigner_card_content .campaigner_box:not(:first-child){
+    margin: 20px 0px 0px 0px;
+}
+.campaigner_box .donate_btn .MuiButtonBase-root.btn{
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%) !important;
+    opacity: unset;
+    mix-blend-mode: unset;
+}
+.campaigner_box{
+    box-shadow: 23.731px 28.477px 40.343px 0px rgba(0, 0, 0, 0.05);
+}
+.our-special-offers-bg{
+    font-size: 18px;
+    line-height: 28px;
+}
+.campaigner_box p{
+    font-size: 15px;
+    line-height: 25px;
+    min-height: 0;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+.campaigner_card_content{
+    display: flex;
+    flex-direction: column;
+}
+.campaigner_card_content .campaigner_box:not(:first-child){
+    margin: 20px 0px 0px 0px;
+}
+.campaigner_box p{
+    min-height: 0 !important;
+}
+.campaigner_box .donate_btn{
+    margin-top: 20px;
+}
+.campaigner_box .donate_btn .MuiButtonBase-root.btn{
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%) !important;
+    opacity: unset;
+    mix-blend-mode: unset;
+}
+.campaigner_box{
+    box-shadow: 23.731px 28.477px 40.343px 0px rgba(0, 0, 0, 0.05);
+}
+}
+@media (min-width:992px) and (max-width:1200px) {
+.campaigner_box h3{
+    min-height: 60px;
+}
+.campaigner_box p{
+    min-height: 120px;
+}
+}

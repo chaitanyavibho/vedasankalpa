@@ -1,0 +1,109 @@
+.small_support_overlap{
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.small_support_large{
+    background: linear-gradient(0deg, #FFF3EF 0%, #FFF3EF 100%), #F9FFF2;
+}
+.small_support-main{
+    display: flex;
+    justify-content: center;
+}
+.small_support_large_box{
+    display: flex;
+    border-radius: 35.39px;
+    background: #FFF6B5;    
+    padding: 20px;
+    position: relative;
+    width: 740px;
+    margin-top: -100px;
+    overflow: hidden;
+    z-index: 99;
+}
+.small_support_large_box .bg{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.small_support_large_box_content{
+    margin-left: 20px;
+}
+.small_support_large_box h3{
+    color: #2C2C2C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px 0px 05px 0px;
+}
+.small_support_large_box p{
+    color: rgba(37, 37, 37, 0.60);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0px 0px 0px 0px;
+}
+.small_support_large_box .donate_now{
+    margin-top: 10px;
+}
+
+.small_support_large_box .donate_now a Button{
+    color: #FFF;
+    font-family: 'Objectivity';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.649px;
+    border-radius: 56px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    padding: 10px 30px;
+    text-transform: unset;
+}
+@media (min-width:320px) and (max-width:399px) {
+.small_support-main{
+    display: unset;
+}
+.small_support_overlap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.small_support_large{
+    margin-top: -10px;
+    padding-top: 30px;
+}
+.small_support_large_box{
+    margin-top: 10px;
+    width: auto;
+}
+.small_support_large_box_content{
+    margin: 20px 0px 0px 0px;
+}
+.small_support_large_box_image{
+    width: 100%;
+}
+.small_support_large_box_image img{
+    width: 100%;
+}
+
+
+}
+@media (min-width:400px) and (max-width:767px) {
+.small_support_large_box{
+    width: 100%;
+    margin-top: 20px;
+}
+.small_support_overlap{
+    display: flex;
+    align-items: flex-start;
+}
+.small_support_overlap{
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+}

@@ -1,0 +1,214 @@
+.testimonial {
+    background: linear-gradient(0deg, #FFF3EF 0%, #FFF3EF 100%), #F9FFF2;
+    margin: 60px 0px 0px 0px;
+    padding: 150px 0px;
+    position: relative;
+}
+.testimonial .child_1{
+    position: absolute;
+    top: 40%;
+    left: 16%;
+}
+.testimonial .child_1 img{
+    width: 55px;
+    height: 62px;
+    object-fit: cover;
+    opacity: 0.3;
+    transform: rotate(11.804deg);
+    border-radius: 50%;
+}
+.testimonial .child_2{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+.testimonial .child_2 img{
+    width: 55px;
+    height: 62px;
+    object-fit: cover;
+    opacity: 0.3;
+    transform: rotate(-11.576deg);
+    border-radius: 50%;
+}
+.testimonial .child_3{
+    position: absolute;
+    bottom: 0;
+    right: 05%;
+}
+.testimonial .child_3 img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    opacity: 0.7;
+}
+.testimonial .child_4{
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+}
+.testimonial .child_4 img{
+    width: 120px;
+    height: 120px;
+    transform: rotate(-0.347deg);
+    object-fit: contain;
+    opacity: 0.4;
+    border-radius: 50%;
+}
+.testimonial .child_5{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.testimonial .child_5 img{
+    object-fit: contain;
+    opacity: 0.4;
+    width: 80px;
+    height: 80px;
+}
+.testimonial_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.testimonial_title h2 {
+    color: #13151E;
+    font-family: 'Objectivity';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0;
+}
+.testimonial .testimonial-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-content .testimonial-text {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+.testimonial-content .testimonial-text img {
+    margin-right: 10px;
+}
+.testimonial-content .testimonial-text-1 h6 {
+    color: #1E1E1E;
+    font-family: 'Objectivity';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 5px;
+}
+.testimonial-content .testimonial-text-1 p {
+    color: #585858;
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+.testimonial-content .testimonial-content-ptag {
+    color: rgba(19, 21, 30, 0.60);
+    text-align: center;
+    font-family: 'Objectivity';
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 500;
+    line-height: 180%;
+    width: 629px;
+}
+@media (min-width:320px) and (max-width:767px) {
+.testimonial{
+    padding: 50px 0px;
+    margin-top: 0;
+}
+.testimonial_title h2{
+    font-size: 30px;
+    line-height: 40px;
+    width: auto;
+}
+.testimonial-content .testimonial-text{
+    margin-bottom: 30px;
+}
+.testimonial-content .testimonial-text-1 h6{
+    font-size: 20px;
+    line-height: 30px;
+}
+.testimonial-content .testimonial-text-1 p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.testimonial-content .testimonial-content-ptag{
+    font-size: 18px;
+    line-height: 28px;
+    width: auto;
+}
+.testimonial-content .testimonial-text img{
+    width: 60px;
+}
+.testimonial .child_1 img, .testimonial .child_2 img, .testimonial .child_3 img, .testimonial .child_4 img, .testimonial .child_5 img{
+    width: 0;
+}
+.testimonial-text{
+    margin-bottom: 30px;
+}    
+}
+@media (min-width:768px) and (max-width:991px){
+.testimonial .testimonial-content h2{
+    font-size: 30px;
+    line-height: 40px;
+    width: auto;
+    margin-bottom: 60px;
+}
+.testimonial-content .testimonial-text-1 h6{
+    font-size: 20px;
+    line-height: 30px;
+}
+.testimonial-content .testimonial-text-1 p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.testimonial-content .testimonial-content-ptag{
+    font-size: 18px;
+    line-height: 28px;
+    width: auto;
+}
+.testimonial-content .testimonial-text img{
+    width: 60px;
+}
+.testimonial .child_1{
+    left: 14%;
+    top: 32%;
+}
+.testimonial .child_2{
+    right: 60px;
+    top: 40px;
+}
+.testimonial .child_3{
+    right: 2%;
+    bottom: 0%;
+}
+.testimonial .child_3 img{
+    width: 80px;
+    height: 80px;
+}
+.testimonial .child_4 img{
+    width: 80px;
+    height: 80px;
+}
+.testimonial .child_5{
+    top: 30px;
+    left: 30px;
+}
+.testimonial .child_5 img{
+    width: 80px;
+    height: 80px;
+}
+    
+}

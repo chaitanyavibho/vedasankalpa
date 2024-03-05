@@ -1,0 +1,160 @@
+.app_header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../public/assets/images/banner/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app_title{
+    padding: 10px 0px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+}
+/* .app_title{
+    background: rgba(253, 253, 253, 0.07);
+    margin-top: 10px;
+    padding: 10px 40px;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0%;
+    z-index: 99999999999;
+    width: 100%;
+    border-radius: unset;
+} */
+.app_title ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app_title ul li{
+    list-style: none;
+}
+.app_title_logo .logo{
+    width: 180px;
+}
+.app_title .app_title_list .btn{
+    font-family: 'Objectivity';
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 10px 30px;
+    border-radius: 80px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    text-transform: unset;
+}
+.app_title .app_title_list .btn span{
+    color: #FFF !important;
+}
+.app_title .app_title_list .btn img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.app_title ul li .MuiButton-root:hover{
+    font-family: 'Objectivity';
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 10px 30px;
+    border-radius: 80px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    text-transform: unset;
+}
+ 
+.app_title ul li .MuiButton-startIcon {
+    margin-right: 7px;
+    margin-bottom: 3px;
+ 
+}
+ 
+.app_title ul li .MuiButton-startIcon img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+ 
+.app_title ul li .MuiButton-endIcon {
+    margin-left: 8px;
+}
+ 
+.app_title ul li .MuiButton-endIcon .rotate-icon {
+    transition: transform 0.2s ease-in-out;
+}
+ 
+.app_title ul li .MuiButton-endIcon .rotate-icon.rotate-180 {
+    transform: rotate(180deg);
+}
+ 
+.app_title .muimenu-paper {
+    background-color: white !important;
+    color: #0F4D81 !important;
+}
+ 
+#demo-customized-menu {
+    left: 0px;
+}
+ 
+#demo-customized-menu .MuiPaper-elevation8 {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .15);
+}
+ 
+#demo-customized-menu .MuiPaper-root {
+    width: 180px !important;
+}
+ 
+#demo-customized-menu .MuiPaper-root .MuiList-root {
+    padding: 15px !important;
+}
+ 
+#demo-customized-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Objectivity';
+    line-height: normal;
+    font-style: normal;
+    font-weight: 500;
+    color: #313131;
+}
+ 
+#demo-customized-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root img {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    filter: grayscale(1);
+    margin-bottom: 3px;
+}
+ 
+#demo-customized-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root:hover {
+    color: #E25704;
+}
+ 
+#demo-customized-menu .MuiPaper-root .MuiList-root .MuiMenuItem-root:hover img {
+    filter: unset;
+}
+@media (min-width:320px) and (max-width:767px) {
+.app_header{
+    height: unset;
+    padding: 180px 0px;
+}
+}

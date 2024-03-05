@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 125.67 120.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="40.39" y1="53.08" x2="82.11" y2="53.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f58c22"/>
+      <stop offset="1" stop-color="#af3825"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="87.02" y2="87.02" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="45.82" y1="93.55" x2="77.62" y2="93.55" xlink:href="#linear-gradient"/>
+  </defs>
+  <circle class="cls-1" cx="61.25" cy="53.08" r="20.86"/>
+  <path class="cls-2" d="m55.68,49.98l2.95,8.41-3.25-.73,29.91-24.57-27.17,27.58-1.96,1.99c-.85-1.8-4.19-8.84-5.1-10.77l4.63-1.9h0Z"/>
+  <rect class="cls-4" x="40.39" y="84.72" width="41.72" height="4.61"/>
+  <rect class="cls-3" x="45.82" y="91.25" width="31.8" height="4.61"/>
+</svg>

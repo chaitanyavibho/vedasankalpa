@@ -1,0 +1,134 @@
+.pujas_box{
+    border-radius: 22px;
+    border: 1.187px solid #EEE;
+    background: #FFF;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    /* height: 100%; */
+}
+.pujas_box:hover{
+    box-shadow: 0px 5px 52px 1px rgba(0, 0, 0, 0.2);
+}
+.pujas_box:hover .MuiButtonBase-root.btn{
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    mix-blend-mode: unset;
+    opacity: unset;
+}
+.pujas_box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.pujas_box h3{
+    color: #13151E;
+    font-family: 'Objectivity';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    min-height: 30px;
+}
+.pujas_box p{
+    color: rgba(19, 21, 30, 0.60);
+    font-family: 'Objectivity';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 60px;
+}
+.pujas_box h4{
+    color: rgba(19, 21, 30, 0.60);
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    min-height: 35px;
+}
+.pujas_box h5{
+    color: rgba(19, 21, 30, 0.60);
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    min-height: 40px;
+}
+.book-now .btn{
+    border-radius: 80px;
+    opacity: 0.3;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    mix-blend-mode: luminosity;
+    color: #FFF;
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    width: 100%;
+    padding: 05px 0px;
+    text-transform: unset;
+    display: flex;
+    align-items: center;
+}
+.book-now .btn img{
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.view-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.view-all a{
+    color: #FFF;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Objectivity';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.view-all a img{
+    margin-left: 10px;
+}
+.donation_box h4{
+    min-height: 70px;
+}
+@media (min-width:320px) and (max-width:767px) {
+.pujas_box{
+box-shadow: 0px 5px 52px 1px rgba(0, 0, 0, 0.2);
+}
+.pujas_box .MuiButtonBase-root.btn{
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    mix-blend-mode: unset;
+    opacity: unset;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+    .pujas_box{
+    box-shadow: 0px 5px 52px 1px rgba(0, 0, 0, 0.2);
+    }
+    .pujas_box .MuiButtonBase-root.btn{
+        background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+        mix-blend-mode: unset;
+        opacity: unset;
+    }
+    
+    }

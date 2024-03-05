@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('../../objectivity/objectivity-font.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Objectivity';
+}
+
+button:hover {
+    background-color: unset !important;
+}
+.special_pujas_donations {
+    margin: 80px 0px 0px 0px;
+    padding-bottom: 40px;
+}
+.special_pujas_donations .donation_puja_buttons {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.donation_puja_buttons .btn {
+    border-radius: 20px;
+    border: 1px solid rgba(238, 238, 238, 0.80);
+    background: #FFF;
+    width: 180px;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #252525;
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: unset;
+    padding-left: 20px;
+}
+.donation_puja_buttons .btn.active {
+    border-radius: 20px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(2.5px);
+    color: #FFF;
+}
+.donation_puja_buttons .btn:hover {
+    border-radius: 20px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(2.5px);
+    color: #FFF;
+}
+.donation_puja_buttons .puja {
+    margin-right: 10px;
+    position: relative;
+}
+.donation_puja_buttons .puja::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../assets/images/icons/puja.svg');
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+}
+.special_pujas_donations .MuiTabs-scroller .MuiTab-textColorPrimary:not(:first-child) {
+    margin-left: 10px;
+}
+.special_pujas_donations .swiper-pagination-horizontal {
+    bottom: 6px !important;
+}
+
+.special_pujas_donations .swiper-horizontal {
+    padding-bottom: 50px !important;
+}
+.special_pujas_donations .swiper-pagination-bullet {
+    width: 60px;
+    border-radius: 08px;
+}
+.special_pujas_donations .swiper-pagination-bullet-active {
+    border-radius: 8px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+}
+.special_pujas_donation_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.special_pujas_donation_title h3 {
+    color: #13151E;
+    text-align: center;
+    font-family: 'Objectivity';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0px 0px 10px 0px;
+}
+.special_pujas_donation_title p {
+    color: rgba(19, 21, 30, 0.60);
+    text-align: center;
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    width: 740px;
+}
+.seva_bookings {
+    margin: 120px 0px;
+}
+.seva_bookings_content {
+    margin-top: 180px;
+}
+.seva_bookings_content h2 {
+    color: #13151E;
+    font-family: 'Objectivity';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0px 0px 10px 0px;
+    width: 380px;
+}
+.seva_bookings_content p {
+    color: rgba(19, 21, 30, 0.60);
+    font-family: 'Objectivity';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+}
+.seva_booking_mini_main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seva_booking_mini_main_content_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.seva_booking_mini_main_content_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0px;
+    margin-right: 60px;
+}
+.seva_booking_mini_main_content_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+.seva_booking_mini_main_content_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+.seva_booking_mini_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seva_booking_mini_content .seva_booking-image {
+    margin-bottom: 10px;
+    width: 120px;
+}
+.seva_booking_mini_content h3 {
+    text-align: center;
+    font-family: 'Objectivity';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px 0px 05px 0px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+.seva_booking_mini_content {
+    position: relative;
+}
+.seva_booking_mini_content p {
+    color: #423D3D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    width: 400px;
+}
+.seva_booking_mini_content {
+    position: relative;
+}
+.seva_booking_mini_content::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../assets/images/seva-bookings/sm-ng.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    left: -20%;
+    bottom: 40%;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content::before {
+    left: -10%;
+    bottom: -90%;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content::before {
+    left: 100%;
+    top: 0;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content::before {
+    width: 0;
+}
+.seva_booking_mini_main_content_4 .seva_booking_mini_content::before {
+    left: -120%;
+    bottom: 8%;
+}
+.seva_booking_mini_main_content .seva_booking_mini_content {
+    position: relative;
+    margin-left: 190px;
+}
+.seva_booking_mini_main_content .seva_booking_mini_content .curve_bg {
+    position: absolute;
+    bottom: -57%;
+    right: 40%;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content {
+    margin-left: 60px;
+    position: relative;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content .curve_bg {
+    position: absolute;
+    bottom: -40%;
+    right: -70%;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content {
+    margin-left: 60px;
+    position: relative;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content .curve_bg {
+    position: absolute;
+    bottom: -49%;
+    left: -45%;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content {
+    margin-left: 60px;
+    position: relative;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content .curve_bg {
+    position: absolute;
+    bottom: -89%;
+    right: -53%;
+}
+.our-special-offers {
+    padding: 80px 0px;
+}
+.our-special-offers-bg {
+    width: 100%;
+    background-image: url('../../assets/images/sepical-offer/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    background-position: center;
+    border-radius: 10px;
+}
+.campaigner-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.campaigner-title h2 {
+    color: #13151E;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0 0 5px 0;
+}
+.campaigner-title p {
+    color: rgba(19, 21, 30, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    width: 600px;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+.special_pujas_donations{
+    margin: 40px 0px 0px 0px ;
+}
+.special_pujas_donation_title{
+    margin: 0;
+}
+.special_pujas_donations .donation_puja_buttons{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.donation_puja_buttons .puja{
+    margin-right: 0;
+}
+.special_pujas_donations .donation_puja_buttons button:not(:first-child){
+    margin-top: 10px;
+}
+.special_pujas_donation_title h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.special_pujas_donation_title p{
+    font-size: 15px;
+    line-height: 25px;
+    width: auto;
+}
+.special-pujas-box{
+    margin-top: 20px;
+}
+.seva_bookings{
+    margin: 40px 0px;
+}
+.seva_bookings_image img{
+    width: 100%;
+}
+.seva_bookings_content{
+    margin-top: 10px;
+}
+.seva_bookings_content h2{
+    font-size: 30px;
+    line-height: 40px;
+    width: auto;
+}
+.seva_bookings_content p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.seva_booking_mini_main_content .seva_booking_mini_content{
+    margin-left: 0;
+}
+.step_booking_main_box{
+    margin-top: 20px;
+}
+.seva_booking_mini_content::before, .seva_booking_mini_content1::before, .seva_booking_mini_content2::before, .seva_booking_mini_content3::before{
+    width: 0;
+}
+.seva_booking_mini_content p{
+    width: auto;
+}
+.seva_booking_mini_main_content .seva_booking_mini_content .curve_bg img{
+    width: 0;
+}
+.seva_booking_mini_main_content_1{
+    margin-top: 20px;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content .curve_bg img{
+    width: 0;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.seva_booking_mini_main_content_2{
+    margin-right: 0;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content .curve_bg img{
+    width: 0;
+}
+.seva_booking_mini_main_content_3{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content .curve_bg img{
+    width: 0;
+}
+.seva_booking_mini_main_content_4{
+    margin-top: 20px;
+}
+
+.our-special-offers{
+    padding: 50px 0px;
+}
+.campaigner-title{
+    margin-top: 30px;
+}
+.campaigner-title h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+.campaigner-title p{
+    font-size: 15px;
+    line-height: 25px;
+    width: auto;
+}
+}
+@media (min-width:768px) and (max-width:900px) {
+.seva_bookings_content{
+    margin-top: 10px;
+}
+/* .seva_booking_mini_content p{
+    width: auto;
+} */
+.seva_booking_mini_main_content_4{
+    margin-top: 20px;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+.seva_bookings{
+    margin: 40px 0px;
+}
+.seva_bookings_content h2{
+    font-size: 30px;
+    line-height: 40px;
+    width: auto;
+}
+.seva_bookings_content p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.seva_booking_mini_main_content{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.step_booking_main_box{
+    margin-top: 20px;
+}
+.seva_booking_mini_main_content_1{
+    margin-top: 40px;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content{
+    margin-left: 0;
+}
+.seva_booking_mini_content::before, .seva_booking_mini_content1::before, .seva_booking_mini_content2::before, .seva_booking_mini_content3::before{
+    width: 0;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content{
+    margin-left: 0;
+    margin-top: 40px;
+}
+.seva_booking_mini_main_content_2{
+    margin-right: 0;
+}
+.seva_booking_mini_main_content_3{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content{
+    margin-left: 0;
+    margin-top: 40px;
+}
+.seva_booking_mini_main_content .seva_booking_mini_content .curve_bg img{
+    width: 0;
+ }
+ .seva_booking_mini_main_content_3 .seva_booking_mini_content .curve_bg img{
+     width: 0;
+ }
+ .seva_booking_mini_main_content_2 .seva_booking_mini_content .curve_bg img{
+     width: 0;
+ }
+ .seva_booking_mini_main_content_1 .seva_booking_mini_content .curve_bg img{
+     width: 0;
+ }
+}
+@media (min-width:992px) and (max-width:1199px) {
+.seva_booking_mini_main_content_1 .seva_booking_mini_content{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content .curve_bg{
+    right: -46%;
+    bottom: -40%;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_2{
+    margin-right: 30px;
+}
+.seva_booking_mini_main_content_3{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_3 .seva_booking_mini_content{
+    margin-left: 0;
+}
+.seva_booking_mini_main_content_1 .seva_booking_mini_content::before{
+    left: 10%;
+}
+.seva_booking_mini_main_content_2 .seva_booking_mini_content::before{
+    left: 80%;
+}
+}

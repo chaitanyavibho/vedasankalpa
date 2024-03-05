@@ -1,0 +1,206 @@
+.footer{
+    background: #FFF3EF;
+    padding: 30px 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+.footer .Footer_bg{
+    position: absolute;
+    bottom: -40px;
+    right:25%;
+    z-index: -99;
+}
+.footer-main{
+    margin-top: 30px;
+    margin-bottom: 120px;
+    width: 100%;
+    z-index: 999;
+}
+.footer-address p{
+    color: rgba(30, 40, 51, 0.80);
+    font-family: 'Objectivity';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+}
+.footer-address p span{
+    color: #A92904;
+}
+.footer-main .footer-logo img{
+    margin-bottom: 10px;
+    width: 180px;
+}
+.footer-main .footer-logo .logo{
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-logo h2{
+    color: #13151E;
+    font-family: 'Objectivity';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    margin:0px 0px 10px 0px;
+}
+.footer-main .services p{
+    color: #A92904;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0;
+}
+.footer-main .services ul{
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+}
+.footer-main .services ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.footer-main .services ul li button{
+    font-family: 'Objectivity';
+    color: #1E2833;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: unset;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-main .services ul li a{
+    font-family: 'Objectivity';
+    color: #1E2833;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: unset;
+}
+.protect_dharma p{
+    color: rgba(19, 21, 30, 0.60) !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 25px !important;
+    margin: 0 !important;
+}
+.copy-rights-content{
+    margin-top: 20px;
+}
+.copy-rights-content p{
+    color: #1E2833 !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 25px !important;
+    margin: 0 !important;
+}
+.social-icons ul{
+    display: flex;
+    align-items: center;
+    margin-top: 20px !important;
+}
+.social-icons ul li{
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+.social-icons ul li:not(:first-child){
+    margin-left: 30px;
+
+}
+.social-icons ul li a{
+    cursor: pointer;
+}
+.great-things {
+    padding: 0px 0px;
+}
+.great-things-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.great-things-content h2 {
+    font-size: 30px;
+    /* color: #474FA0; */
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.great-things-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.great-things .great-things-content .banner-buttons{
+    margin-top: 20px;
+}
+.great-things .great-things-content .banner-buttons a{
+    text-decoration: none;
+}
+.great-things .great-things-content .banner-buttons button{
+    font-family: 'Objectivity';
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 10px 30px;
+    border-radius: 80px;
+    background: linear-gradient(276deg, #A92902 -4.36%, #E25704 49.89%, #F49004 105.28%);
+    text-transform: unset;
+}
+@media (min-width:320px) and (max-width:767px) {
+.footer-main .footer-logo .logo{
+    font-size: 20px !important;
+    line-height: 30px !important;
+    margin-bottom: 10px !important;
+}
+.footer-logo h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+.copy-rights-content{
+    margin: 0;
+}
+.footer .Footer_bg img{
+    width: 100%;
+}
+.footer-main{
+    margin: 0px 0px 50px 0px;
+}
+.login_modal .MuiBox-root{
+    width: 250px;
+} 
+.footer-main .services ul li{
+    margin-bottom: 10px;
+}
+}
